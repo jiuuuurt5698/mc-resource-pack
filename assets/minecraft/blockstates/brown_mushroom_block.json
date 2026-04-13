@@ -1,0 +1,32 @@
+{
+  "multipart": [
+    {
+      "when": { "north": "true", "south": "false", "east": "false", "west": "false", "up": "false", "down": "false" },
+      "apply": { "model": "minecraft:block/custom_ore_amethyste_noire" }
+    },
+    {
+      "when": { "north": "false", "south": "true", "east": "false", "west": "false", "up": "false", "down": "false" },
+      "apply": { "model": "minecraft:block/custom_ore_mythril" }
+    },
+    {
+      "when": { "north": "false", "south": "false", "east": "true", "west": "false", "up": "false", "down": "false" },
+      "apply": { "model": "minecraft:block/custom_ore_coeite" }
+    },
+    {
+      "when": { "north": "false", "south": "false", "east": "false", "west": "true", "up": "false", "down": "false" },
+      "apply": { "model": "minecraft:block/custom_ore_jade_ancien" }
+    },
+    {
+      "when": { "north": "false", "south": "false", "east": "false", "west": "false", "up": "true", "down": "false" },
+      "apply": { "model": "minecraft:block/custom_ore_ecaille_givre" }
+    },
+    {
+      "when": { "north": "false", "south": "false", "east": "false", "west": "false", "up": "false", "down": "true" },
+      "apply": { "model": "minecraft:block/custom_ore_poudre_etoile" }
+    },
+    {
+      "when": { "north": "true", "south": "true", "east": "true", "west": "true", "up": "true", "down": "true" },
+      "apply": { "model": "minecraft:block/brown_mushroom_block" }
+    }
+  ]
+}
